@@ -1,0 +1,150 @@
+#title{
+    background-color: #ff4c68;
+}
+
+.container{
+    padding: 4%  5% ;
+  
+}
+
+.iphone{
+    height: 75%;
+    margin: 20px;
+    border-right: 20%;
+    transform: rotate(25deg);
+   padding: 30px 10px;
+   right:50px;
+
+   
+}
+#features{
+    padding: 7% 15%;
+    
+}
+.navbar-brand{
+    font-size: large;
+}
+
+
+h1{
+   font-family: "ubuntu", sans-serif;
+   color: aliceblue;
+    font-size: 3rem;
+    line-height-step: 1.5;
+    line-height: 3.5;
+    padding:0% 10% 0% 0%;
+}
+
+.feature-box{
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+p{
+    color: gray;
+}
+
+.icon{
+    color: #ef8172;
+    padding-bottom: 1rem;
+}
+
+.icon:hover{
+    color: #ff4c68;
+}
+
+#testimonials{
+    padding:7% 15% ;
+    background-color:#ff4c68 ;
+    text-align: center;
+    color:aliceblue;
+}
+
+
+
+
+h2{
+    font-family: "ubuntu", sans-serif;
+    font-size: 3rem;
+    line-height: 3.5;
+    line-gap-override: 2;
+
+}
+
+.dog{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+    
+}
+
+
+#press{
+    padding-bottom: 5%;
+    background-color:#ff4c68 ;
+    text-align: center;
+}
+
+.press-logo{
+    width: 15%;
+    margin:20px 20px 50px;
+}
+
+.tindog{
+    font-size: 100px;
+}
+
+
+@media (max-width:1000px){
+    #title {
+        text-align: center;
+    }
+   .iphone{
+       position:static;
+       transform:rotate(0);
+
+   }
+
+}
+
+#cta{
+    background-color: #ff4c68;
+    color: aliceblue;
+    padding: 7%  15%;
+    text-align:center;
+   
+    
+
+}
+
+.download-button{
+     margin:20px 20px 50px;
+}
+
+.cta-heading{
+    font-family: "ubuntu", sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+
+}
+
+
+#footer{
+    padding: 7%  15%;
+    text-align:center;
+
+}
+
+.social-icon{
+    margin: 20px 10px;
+}
+
+#pricing{
+    padding: 7%  15%;
+    text-align:center;
+   
+}
+
+.pricing-para{
+    padding:20px 20px 50px ;
+}
